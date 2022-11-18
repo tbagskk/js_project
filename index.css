@@ -1,0 +1,32 @@
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    
+}
+.citation
+{
+    border:1px solid black;
+    height: 50px;
+    width: 600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.button
+{
+    height: 30px;
+    width: 100px;
+    margin-top: 50px;
+}
+.text
+{
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+
+}
