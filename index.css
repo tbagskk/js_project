@@ -8,25 +8,81 @@
     height: 800px;
     
 }
-.citation
+.calculatrice
 {
     border:1px solid black;
-    height: 50px;
+    height: 650px;
     width: 600px;
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #3d4662;
 }
 .button
 {
-    height: 30px;
-    width: 100px;
-    margin-top: 50px;
+    height: 75px;
+    width: 110px;
+    margin: 10px;
+    background-color:    #e8e3dd;    
 }
+.button2
+{
+    height: 75px;
+    width: 200px;
+    margin: 10px;
+    
+}
+
 .text
 {
     font-size: 20px;
     font-family: Arial;
     text-align: center;
 
+}
+.ecran
+{
+    border:1px solid black;
+    height: 100px;
+    width: 500px;
+    background-color: #1a1f31;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.clavier
+{
+    height: 500px;
+    width: 500px;
+    border:1px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(39,45,68);
+    border-radius: 10px;
+}
+.range1
+{
+    height: 100px;
+    width: 450px;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.result
+{
+    font-size: 25px;
+    color:white;
+    font-family: Verdana;
+    font-weight: 400;
+    margin-right: 20px;
+    
 }

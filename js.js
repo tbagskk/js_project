@@ -1,7 +1,20 @@
+bouton = document.addEventListener("click",citation);
+var i = -1;
+
 function citation()
 {
-    var texte;
+    let texte;
+    let bouton;
 
     texte = document.getElementById(2);
-    texte.innerHTML = "citation mes couilles";
+    
+    i++;
+    console.log(i);
+    let tab=["comment ca va mon reuf"];
+    tab[0]='comment ca v8 mon reuf';
+    tab[1]='cyka blyat';
+    texte.innerHTML = tab[i];
+
+    
 }
+
